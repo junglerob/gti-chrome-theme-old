@@ -1,0 +1,54 @@
+{
+    "description": "GTI Enthusiast Theme for Chrome",
+    "short_name": "GTI Theme",
+    "manifest_version": 2,
+    "name": "GTI Enthusiast Chrome Theme",
+    "author": "Jungle Rob",
+    "resources": {
+        "all-other-images": {
+            "description": "Other images created by me.",
+            "copyright": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "aspiring-artist": ""
+        }
+    },
+    "icons": {
+        "256": "images/icon.png"
+    },
+    "theme": {
+        "colors": {
+            "tab_text": [ 0, 0, 0 ],
+            "bookmark_text": [ 255, 255, 255 ],
+            "button_background": [ 241, 239, 86, 0.16 ],
+            "frame": [ 10, 10, 10 ],
+            "ntp_background": [ 96, 96, 96 ],
+            "ntp_text": [ 255, 255, 255 ],
+            "tab_background_text": [ 120, 120, 120 ],
+            "toolbar": [ 210, 210, 210 ]
+        },
+        "images": {
+            "theme_frame": "images/jacky-fabric.png",
+            "theme_frame_inactive":"images/jacky-fabric.png",
+            "theme_frame_incognito":"images/hex-grill.png",
+            "theme_frame_incognito_inactive":"images/gray.png",
+            "theme_toolbar":"images/tab-toolbar.png",
+            "theme_tab_background": "images/carbon-fibre.png",
+            "theme_tab_background_incognito":"images/jacky-fabric.png",
+            "theme_frame_overlay_inactive":"images/gray.png",
+            "theme_button_background":"images/gray.png",
+            "theme_window_control_background":"images/gray.png",
+            "theme_frame_overlay": "images/gray.png",
+            "theme_ntp_attribution": "images/icon.png",
+            "theme_ntp_background": "images/hex-grill.png"
+        },
+        "properties": {
+            "ntp_background_alignment": "center",
+            "ntp_background_repeat": "repeat"
+        },
+        "tints": {
+            "buttons": [ 0.51, 1, 0.53 ],
+            "frame_inactive": [0.3,0.3,0.3]
+        }
+    },
+    "version": "1.0.1"
+}
