@@ -2,6 +2,7 @@
 FILENAME = gti-enthuiast-theme.zip
 clean:
 	@find . -iname '*DS_Store*' -exec rm {} \;
+	@find . -iname '._*' -exec rm {} \;
 	@rm -f $(FILENAME)
 
 
